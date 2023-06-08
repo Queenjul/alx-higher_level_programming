@@ -4,7 +4,7 @@ if __name__ == "__main__":
     import sys
 
     argv = sys.argv[1:]
-    argv_length = len(argv)
+    argv_count = len(argv)
     operators = ["+", "-", "*", "/"]
 
     if argv_count != 3:
